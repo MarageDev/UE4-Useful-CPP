@@ -9,26 +9,28 @@ General function library plugin for Unreal Engine 4.
 3. Copy the plugin folder into the 'Plugins' folder of your project (Make the folder if it doesnt exist)
 4. You can now use it
 
+## File Manager
 ### How to use
 You can use the functions from the plugin by searching in the "blueprint browser" ( right click while you are in a blueprint graph ) for "FileManager".
 
-![image](https://user-images.githubusercontent.com/76840739/162073965-e5a2f277-42f3-43b8-981f-206cd39f133b.png)
+![image](https://user-images.githubusercontent.com/33568643/162084171-33fcbb16-0709-4c52-8bdb-3ff657c3496d.png)
 
-### Functions
+
+### Documentation
 The functions below are subject to changes and are currently in WIP
 #### File Manager
-> ***Note :*** The path is relative
+> ***Note :*** 'FileName' is relative to the project directory, 'FilePath' or 'FullDir' are full paths.
 ```cs
-ReadText : read the content of a specified file
+ReadText : read the text content of a specified file
 ```
 
-![image](https://user-images.githubusercontent.com/76840739/162074990-0f7b75b9-06e7-4ed2-9872-c23736bc8503.png)
+![image](https://user-images.githubusercontent.com/33568643/162084505-45446f1a-11a3-475b-97a4-d1e55879accf.png)
 
 ```cs
 WriteText : write in a specified file a specified content
 ```
 
-![image](https://user-images.githubusercontent.com/76840739/162074927-11240dbc-4835-49ed-a453-a0c5d965771d.png)
+![image](https://user-images.githubusercontent.com/33568643/162084680-ebe5eb6f-8713-4ae6-aa8a-1b64528fdb2e.png)
 
 ```cs
 CreateText : create a file with a specified extension
