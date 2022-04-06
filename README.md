@@ -3,15 +3,11 @@
 General function library plugin for Unreal Engine 4.
 
 ## Install and Setup 
-### How to install the plugin
-1. Download the "plugin" folder from the Github repository
-2. Copy the folder in the root of your project
-3. You can now use it
-
-### Example Project
-1. Download the repository ( from Git clone or .zip file )
-2. ( if you downloaded the .zip, extract it )
-3. Start the file "UsefulCPP.uproject"
+### How to install a plugin
+1. Download the plugin you want from the repository
+2. Ensure your project is a c++ project (Make a c++ class to convert it)
+3. Copy the plugin folder into the 'Plugins' folder of your project (Make the folder if it doesnt exist)
+4. You can now use it
 
 ### How to use
 You can use the functions from the plugin by searching in the "blueprint browser" ( right click while you are in a blueprint graph ) for "FileManager".
