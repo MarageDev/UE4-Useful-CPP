@@ -55,4 +55,5 @@ void UBPFileManager::FindFilesInDir(FString Dir, TArray<FString>& Files)
 ![image](https://user-images.githubusercontent.com/76840739/162074859-de9b6f92-87a3-4e30-87e2-603c94bbb31c.png)
 
 
-
+## Credits
+Made by [Marage](https://github.com/MarageDev)  and [Oxi](https://github.com/oxi-dev0) 
