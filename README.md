@@ -9,6 +9,9 @@ General function library plugin for Unreal Engine 4.
 3. Copy the plugin folder into the 'Plugins' folder of your project (Make the folder if it doesnt exist)
 4. You can now use it
 
+## Plugins list
+- [File Manager](#file-manager)
+
 ## File Manager
 ### How to use
 You can use the functions from the plugin by searching in the "blueprint browser" ( right click while you are in a blueprint graph ) for "FileManager".
