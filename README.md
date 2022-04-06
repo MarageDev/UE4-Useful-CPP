@@ -2,10 +2,10 @@
 
 ## Functions
 ```c
-ReadText ( Blueprint Callable ) : read the content of a specified .txt file
+ReadText ( Blueprint Callable ) : read the content of a specified file
 ```
 ```c
-WriteText ( Blueprint Callable ) : write in a specified .txt file a specified content
+WriteText ( Blueprint Callable ) : write in a specified file a specified content
 ```
 ```c
 CreateText ( Blueprint Callable ) : create a file with a specified extension
