@@ -12,6 +12,8 @@ General function library plugin for Unreal Engine 4.
 ## Plugins list
 - [File Manager](#file-manager)
 
+---
+
 ## File Manager
 ### How to use
 You can use the functions from the plugin by searching in the "blueprint browser" ( right click while you are in a blueprint graph ) for "FileManager".
@@ -65,6 +67,7 @@ DoesFileExist : check if a file exists (full path)
 
 ![image](https://user-images.githubusercontent.com/33568643/162085551-37a0ea6b-01bc-4730-ba8c-be951b5b9115.png)
 
+---
 
 ## Credits
 Made by [Marage](https://github.com/MarageDev)  and [Oxi](https://github.com/oxi-dev0) 
