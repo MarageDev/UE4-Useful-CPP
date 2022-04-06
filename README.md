@@ -27,21 +27,40 @@ ReadText : read the text content of a specified file
 ![image](https://user-images.githubusercontent.com/33568643/162084505-45446f1a-11a3-475b-97a4-d1e55879accf.png)
 
 ```cs
-WriteText : write in a specified file a specified content
+WriteText : write text content into a specified file
 ```
 
 ![image](https://user-images.githubusercontent.com/33568643/162084680-ebe5eb6f-8713-4ae6-aa8a-1b64528fdb2e.png)
 
 ```cs
-CreateText : create a file with a specified extension
+WriteTextLines : write an array of lines into a specified file. A new-line char is placed inbetween each line
 ```
-![image](https://user-images.githubusercontent.com/76840739/162075089-f4971190-be7f-4efe-b8ac-104a39f8458c.png)
+
+![image](https://user-images.githubusercontent.com/33568643/162085335-b88a4bf8-09d8-4aa6-95e1-a22188fa7c86.png)
+
 
 ```cs
-FindFilesInDir : find all the files under a specified directory, returns an array of Names
+CreateFile : create a file with empty content
+```
+![image](https://user-images.githubusercontent.com/33568643/162085146-4c549b38-463a-410b-961c-673a84dda7dc.png)
+
+```cs
+ListFilesInDir : find all the files under a specified directory with the specified extension, returns an array of file names
 ```
 
-![image](https://user-images.githubusercontent.com/76840739/162074859-de9b6f92-87a3-4e30-87e2-603c94bbb31c.png)
+![image](https://user-images.githubusercontent.com/33568643/162085216-c17e3f48-fc9c-4b0c-b637-cc36c90f031c.png)
+
+```cs
+DoesDirExist : check if a directory exists (full path)
+```
+
+![image](https://user-images.githubusercontent.com/33568643/162085486-2d8a7200-a3ef-4dc9-bb63-0aad508d6cb0.png)
+
+```cs
+DoesFileExist : check if a file exists (full path)
+```
+
+![image](https://user-images.githubusercontent.com/33568643/162085551-37a0ea6b-01bc-4730-ba8c-be951b5b9115.png)
 
 
 ## Credits
