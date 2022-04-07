@@ -69,5 +69,8 @@ DoesFileExist : check if a file exists (full path)
 
 ---
 
+## Additional Information
+This plugin was designed for Unreal Engine **4.27**
+> It can be used with UE **4.26**
 ## Credits
 Made by [Marage](https://github.com/MarageDev)  and [Oxi](https://github.com/oxi-dev0) 
